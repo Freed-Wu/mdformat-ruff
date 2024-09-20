@@ -30,7 +30,7 @@ Source = "https://github.com/Freed-Wu/mdformat-ruff"
 "python" = "mdformat_ruff:format_python"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.7"
 ruff = "*"
 
 [tool.poetry.group.dev.dependencies]
